@@ -1,0 +1,109 @@
+* {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+html,body {
+
+    height: 100%;
+
+    width:100%;
+
+}
+
+
+
+@font-face {
+
+    font-family: 'Poppin';
+
+    src: url('https://fonts.google.com/specimen/Poppins');
+
+}
+
+
+
+html {
+
+    background-color:  hsl(0, 100%, 74%);
+
+    background-image: url("images/images/bg-intro-desktop.png");
+
+}
+
+
+
+body {
+
+    padding: 3em;
+
+    font-family: 'Poppin', Courier, monospace;
+
+    color: hsl(249, 10%, 26%);
+
+}
+
+
+
+main {
+
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+
+
+form {
+
+    background-color: white;
+
+    padding: 2em;
+
+    border-radius: 16px;
+
+}
+
+
+
+h4{
+
+    background-color:  hsl(248, 32%, 49%);
+
+    border-radius: 16px;
+
+    color: white;
+
+}
+
+
+
+p, h4{
+
+    margin-bottom: 1em;
+
+}
+
+
+
+#box1 {
+
+    color: white;
+
+    font-weight: 400, 500, 600, 700;
+
+}
+
+#box1,#box2 {
+
+    padding: 2em;
+
+}
